@@ -1,0 +1,14 @@
+.env
+__pycache__/
+.vscode/
+*.pyc
+data/
+outputs/
+app_backup.py
+0.20
+0.70
+10
+15
+30
+5
+60
