@@ -499,16 +499,3 @@ The following components have been implemented:
  Interactive Streamlit dashboard
  Map-based visualization
  AI classification results table
-20. Limitations
-
-The current prototype has several important limitations:
-
-FIRMS detections represent satellite-observed thermal anomalies and do not by themselves establish the cause of an event.
-The training labels are conservative development labels rather than a complete independently verified ground-truth dataset.
-Model confidence represents the classifier's confidence, not the probability that a real-world event has been independently confirmed.
-OSM infrastructure data may be incomplete or outdated.
-Dynamic World provides land-cover context and should not be treated as fire-event ground truth.
-Forest proximity alone cannot determine whether a thermal event is a wildfire.
-Cloud cover, satellite revisit timing, sensor characteristics, and detection limitations can affect satellite observations.
-Industrial-fire predictions should be interpreted as candidate events requiring further verification.
-The current system is a prototype and has not been deployed as an operational emergency-response system.
